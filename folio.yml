@@ -1,0 +1,12 @@
+title: "WebRTC streaming using Gstreamer"
+description: >
+  This was one of the most techincally challenging projects I've undertaken. During my 
+  freelancing days, a client wanted me to build a zoom/teams/google meet recorder with extremely low
+  latency so that they could run inference on the video output. Since neither platform provide API's for 
+  accessing their video streams, I had to figure out a way to pipe multiple virtual video buffers into Gstreamer
+  ingest endpoint and connect via WebRTC to their video inferencing backend. 
+status: "finished" # one of: ongoing | abandoned | finished
+startedAt: "2024-10-01" # ISO dates are easiest
+thumbnail: "gstreamer-logo.png" # path inside repo OR full URL
+noRepo: true
+
