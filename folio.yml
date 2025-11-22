@@ -5,6 +5,8 @@ description: >
   latency so that they could run inference on the video output. Since neither platform provide API's for 
   accessing their video streams, I had to figure out a way to pipe multiple virtual video buffers into Gstreamer
   ingest endpoint and connect via WebRTC to their video inferencing backend. 
+
+  I needed to learn browser automation tools, how to make gstreamer pipelines, and most of all patience
 status: "finished" # one of: ongoing | abandoned | finished
 startedAt: "2024-10-01" # ISO dates are easiest
 thumbnail: "gstreamer-logo.png" # path inside repo OR full URL
